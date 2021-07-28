@@ -4,6 +4,13 @@ const indexController = {
 
         res.render('index');
 
+    },
+
+    datos1: (req, res) =>{
+
+        console.log(req.body);
+        res.send('Ok')
+
     }
 
 
